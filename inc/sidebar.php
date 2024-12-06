@@ -126,6 +126,10 @@
                             <div class="sb-nav-link-icon"><i class="fas fa-lock"></i></div>
                             Ganti Password
                         </a>
+                        <a class="nav-link" href="<?php echo BASE_URL; ?>index.php">
+                            <div class="sb-nav-link-icon"><i class="fas fa-lock"></i></div>
+                            Logout
+                        </a>
                     </div>
                 </div>
                 <div class="sb-sidenav-footer">

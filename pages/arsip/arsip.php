@@ -1,6 +1,6 @@
-<?php 
+<?php
 include_once  __DIR__ . '/../../inc/header.php';
-include_once  __DIR__ . '/../../inc/sidebar.php'; 
+include_once  __DIR__ . '/../../inc/sidebar.php';
 ?>
 <div id="layoutSidenav_content">
     <main>
@@ -20,9 +20,9 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
                 <div class="card-header">
                     <i class="fas fa-table mr-1"></i>
                     Arsip DataTable
-                    <!-- <a href="<?php echo BASE_URL; ?>pages/arsip/arsip_tambah.php" class="btn btn-primary float-right">
+                    <a href="<?php echo BASE_URL; ?>pages/arsip/arsip_tambah.php" class="btn btn-primary float-right">
                         <i class="fas fa-plus mr-2"></i> Tambah
-                    </a> -->
+                    </a>
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">
@@ -54,11 +54,13 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
                                     <td>1</td>
                                     <td>17:07:30 12-10-2019</td>
                                     <td><a href="arsip_detail.php">
-                                        <u>
-                                        <li><b>Kode:</b> KD-ARSIP-2019</li>
-                                        <li><b>Nama:</b> Contoh Surat Izin Pelaksanaan</li>
-                                        <li><b>Jenis:</b> pdf</li>
-                                        </u>
+                                            <u>
+                                                <ul class="list-unstyled">
+                                                    <li><b>Kode:</b> KD-ARSIP-2019</li>
+                                                    <li><b>Nama:</b> Contoh Surat Izin Pelaksanaan</li>
+                                                    <li><b>Jenis:</b> pdf</li>
+                                                </ul>
+                                            </u>
                                         </a>
                                     </td>
                                     <td>Surat Kesehatan Pegawai</td>
@@ -69,7 +71,11 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
                                             <i class="fa fa-download"></i>
                                         </a>
                                         &nbsp;
-                                        <a href="" class="btn btn-danger btn-sm">
+                                        <a href="arsip_edit.php" class="btn btn-secondary btn-sm">
+                                            <i class="fa fa-edit"></i>
+                                        </a>
+                                        &nbsp;
+                                        <a href="#" class="btn btn-danger btn-sm">
                                             <i class="fa fa-trash"></i>
                                         </a>
                                     </td>

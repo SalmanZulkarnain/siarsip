@@ -5,30 +5,30 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
 <div id="layoutSidenav_content">
     <main>
         <div class="container-fluid">
-            <h1 class="mt-4">Form Arsip</h1>
+            <h1 class="mt-4">Form Edit Arsip</h1>
             <ol class="breadcrumb mb-4">
                 <li class="breadcrumb-item">
                     <a href="index.html">Dashboard</a>
                 </li>
-                <li class="breadcrumb-item active">Form Arsip</li>
+                <li class="breadcrumb-item active">Form Edit Arsip</li>
             </ol>
             <div class="card mb-4">
                 <div class="card-header">
                     <i class="fas fa-plus mr-1"></i>
-                    Form Arsip
+                    Form Edit Arsip
                 </div>
                 <div class="card-body">
                     <form>
                         <!-- input text -->
                         <div class="form-group">
                             <label for="exampleKodeArsip1">Kode Arsip</label>
-                            <input type="text" class="form-control" id="exampleKodeArsip1" />
+                            <input type="text" class="form-control" id="exampleKodeArsip1" value="KD-ARSIP-2019"/>
                         </div> 
 
                         <!-- input text -->
                         <div class="form-group">
                             <label for="exampleNamaArsip1">Nama Arsip</label>
-                            <input type="text" class="form-control" id="exampleNamaArsip1" />
+                            <input type="text" class="form-control" id="exampleNamaArsip1" value="Contoh Surat Izin Pelaksanaan"/>
                         </div> 
 
                         <!-- select -->
@@ -36,7 +36,7 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
                             <label for="exampleKategori1">Kategori</label>
                             <select class="form-control" id="exampleKategori1">
                                 <option selected disabled>Pilih Kategori</option>
-                                <option>Surat Kesehatan Pegawai</option>
+                                <option selected>Surat Kesehatan Pegawai</option>
                                 <option>2</option>
                                 <option>3</option>
                                 <option>4</option>
@@ -47,7 +47,7 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
                         <!-- textarea -->
                         <div class="form-group">
                             <label for="exampleFormControlKeterangan1">Keterangan</label>
-                            <textarea class="form-control" id="exampleFormControlKeterangan1" rows="3"></textarea>
+                            <textarea class="form-control" id="exampleFormControlKeterangan1" rows="3">Contoh Surat Cuti Sakit Pegawai Baru</textarea>
                         </div>
                         
                         <!-- input file -->
@@ -56,7 +56,7 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
                             <input type="file" class="form-control-file" id="exampleInputFile1" />
                         </div>
 
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary">Edit</button>
                         <a href="arsip.php" class="btn btn-secondary">Back</a>
                     </form>
                 </div>
