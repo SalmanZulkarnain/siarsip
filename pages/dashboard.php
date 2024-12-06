@@ -1,6 +1,6 @@
-<?php
-include 'inc/header.php';
-include 'inc/sidebar.php';
+<?php 
+include  __DIR__ . '/../inc/header.php';
+include  __DIR__ . '/../inc/sidebar.php'; 
 ?>
 <div id="layoutSidenav_content">
     <main>
@@ -70,6 +70,7 @@ include 'inc/sidebar.php';
         </div>
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
-    <script src="assets/demo/chart-area-demo.js"></script>
-    <script src="assets/demo/chart-bar-demo.js"></script>
-    <?php include 'inc/footer.php'; ?>
+    <script src="<?php echo BASE_URL; ?>assets/demo/chart-area-demo.js"></script>
+    <script src="<?php echo BASE_URL; ?>assets/demo/chart-bar-demo.js"></script>
+    <?php include  __DIR__ . '/../inc/footer.php'; ?>
+
