@@ -5,10 +5,10 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
 <div id="layoutSidenav_content">
     <main>
         <div class="container-fluid">
-            <h1 class="mt-4">Kategori</h1>
+            <h1 class="mt-4">Riwayat Unduh</h1>
             <ol class="breadcrumb mb-4">
                 <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
-                <li class="breadcrumb-item active">Kategori</li>
+                <li class="breadcrumb-item active">Riwayat Unduh</li>
             </ol>
             <div class="card mb-4">
                 <div class="card-body">
@@ -19,10 +19,10 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
             <div class="card mb-4">
                 <div class="card-header">
                     <i class="fas fa-table mr-1"></i>
-                    DataTable Example
-                    <a href="<?php echo BASE_URL; ?>pages/kategori/kategori_tambah.php" class="btn btn-primary float-right">
+                    Riwayat Unduh DataTable
+                    <!-- <a href="<?php echo BASE_URL; ?>pages/riwayat_unduh/riwayat_unduh_tambah.php" class="btn btn-primary float-right">
                         <i class="fas fa-plus mr-2"></i> Tambah
-                    </a>
+                    </a> -->
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">
@@ -30,33 +30,25 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
                             <thead>
                                 <tr>
                                     <th>No</th>
-                                    <th>Name</th>
-                                    <th>Deksripsi</th>
-                                    <th>Action</th>
+                                    <th>Waktu Upload</th>
+                                    <th>User</th>
+                                    <th>Arsip yang diunduh</th>
                                 </tr>
                             </thead>
                             <tfoot>
                                 <tr>
                                     <th>No</th>
-                                    <th>Name</th>
-                                    <th>Deksripsi</th>
-                                    <th>Action</th>
+                                    <th>Waktu Upload</th>
+                                    <th>User</th>
+                                    <th>Arsip yang diunduh</th>
                                 </tr>
                             </tfoot>
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td><a href=""><u>Elektronik</u></a></td>
-                                    <td>Semua yang berhubungan dengan elektronik</td>
-                                    <td>
-                                        <a href="kategori_edit.php" class="btn btn-warning btn-sm">
-                                            <i class="fa fa-edit"></i>
-                                        </a>
-                                        &nbsp;
-                                        <a href="" class="btn btn-danger btn-sm">
-                                            <i class="fa fa-trash"></i>
-                                        </a>
-                                    </td>
+                                    <td>17:10:07 14-10-2019</td>
+                                    <td>Kepin</td>
+                                    <td><a href="../arsip/arsip_detail.php"><u>Contoh Surat Izin Pelaksanaan</u></a></td>
                                 </tr>
                             </tbody>
                         </table>

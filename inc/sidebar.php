@@ -10,7 +10,7 @@
                             </div>
                             Dashboard
                         </a>
-                        <div class="sb-sidenav-menu-heading">Interface</div>
+                        <!-- <div class="sb-sidenav-menu-heading">Interface</div>
                         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayouts"
                             aria-expanded="false" aria-controls="collapseLayouts">
                             <div class="sb-nav-link-icon">
@@ -90,25 +90,41 @@
                                     </nav>
                                 </div>
                             </nav>
-                        </div>
-                        <div class="sb-sidenav-menu-heading">Addons</div>
-                        <a class="nav-link" href="<?php echo BASE_URL; ?>charts.php">
+                        </div> -->
+                        <div class="sb-sidenav-menu-heading">Menu</div>
+                        <!-- <a class="nav-link" href="<?php echo BASE_URL; ?>charts.php">
                             <div class="sb-nav-link-icon">
                                 <i class="fas fa-chart-area"></i>
                             </div>
                             Charts
-                        </a>
-                        <a class="nav-link" href="<?php echo BASE_URL; ?>tables.php">
+                        </a> -->
+                        <!-- <a class="nav-link" href="<?php echo BASE_URL; ?>tables.php">
                             <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                             Tables
-                        </a>
+                        </a> -->
                         <a class="nav-link" href="<?php echo BASE_URL; ?>pages/kategori/kategori.php">
                             <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                             Kategori
                         </a>
+                        <a class="nav-link" href="<?php echo BASE_URL; ?>pages/petugas/petugas.php">
+                            <div class="sb-nav-link-icon"><i class="fas fa-user"></i></div>
+                            Petugas
+                        </a>
                         <a class="nav-link" href="<?php echo BASE_URL; ?>pages/user/user.php">
                             <div class="sb-nav-link-icon"><i class="fas fa-user"></i></div>
                             User
+                        </a>
+                        <a class="nav-link" href="<?php echo BASE_URL; ?>pages/arsip/arsip.php">
+                            <div class="sb-nav-link-icon"><i class="fas fa-newspaper"></i></div>
+                            Arsip
+                        </a>
+                        <a class="nav-link" href="<?php echo BASE_URL; ?>pages/riwayat_unduh/riwayat_unduh.php">
+                            <div class="sb-nav-link-icon"><i class="fas fa-download"></i></div>
+                            Riwayat Unduh
+                        </a>
+                        <a class="nav-link" href="<?php echo BASE_URL; ?>pages/ganti_password/ganti_password.php">
+                            <div class="sb-nav-link-icon"><i class="fas fa-lock"></i></div>
+                            Ganti Password
                         </a>
                     </div>
                 </div>

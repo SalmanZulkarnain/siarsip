@@ -21,14 +21,26 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
                     <form>
                         <!-- input text -->
                         <div class="form-group">
-                            <label for="exampleInputUser1">Nama User</label>
-                            <input type="text" class="form-control" id="exampleInputUser1" value="Salman"/>
+                            <label for="exampleNama1">Nama</label>
+                            <input type="text" class="form-control" value="Kevin Adisurya" id="exampleNama1" />
                         </div> 
 
-                        <!-- textarea -->
+                        <!-- input text -->
                         <div class="form-group">
-                            <label for="exampleFormControlDeskripsi1">Deskripsi</label>
-                            <textarea class="form-control" id="exampleFormControlDeskripsi1" rows="3">Semua yang berhubungan dengan elektronik</textarea>
+                            <label for="exampleUsername1">Username</label>
+                            <input type="text" class="form-control" value="Kepin" id="exampleUsername1" />
+                        </div> 
+
+                        <!-- input password -->
+                        <div class="form-group">
+                            <label for="examplePassword1">Password</label>
+                            <input type="password" class="form-control" value="*****" id="examplePassword1" />
+                        </div>
+                        
+                        <!-- input file -->
+                        <div class="form-group">
+                            <label for="exampleInputFile1">File</label>
+                            <input type="file" class="form-control-file" id="exampleInputFile1" />
                         </div>
 
                         <button type="submit" class="btn btn-primary">Submit</button>

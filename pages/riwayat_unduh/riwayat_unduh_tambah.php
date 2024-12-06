@@ -5,17 +5,17 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
 <div id="layoutSidenav_content">
     <main>
         <div class="container-fluid">
-            <h1 class="mt-4">Form User</h1>
+            <h1 class="mt-4">Form Petugas</h1>
             <ol class="breadcrumb mb-4">
                 <li class="breadcrumb-item">
                     <a href="index.html">Dashboard</a>
                 </li>
-                <li class="breadcrumb-item active">Form User</li>
+                <li class="breadcrumb-item active">Form Petugas</li>
             </ol>
             <div class="card mb-4">
                 <div class="card-header">
                     <i class="fas fa-plus mr-1"></i>
-                    Form User
+                    Form Petugas
                 </div>
                 <div class="card-body">
                     <form>
@@ -31,7 +31,7 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
                             <input type="text" class="form-control" id="exampleUsername1" />
                         </div> 
 
-                        <!-- input password -->
+                        <!-- input text -->
                         <div class="form-group">
                             <label for="examplePassword1">Password</label>
                             <input type="password" class="form-control" id="examplePassword1" />
@@ -44,7 +44,7 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
                         </div>
 
                         <button type="submit" class="btn btn-primary">Submit</button>
-                        <a href="user.php" class="btn btn-secondary">Back</a>
+                        <a href="petugas.php" class="btn btn-secondary">Back</a>
                     </form>
                 </div>
             </div>
