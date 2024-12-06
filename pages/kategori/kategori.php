@@ -1,27 +1,21 @@
-<?php 
+<?php
 include_once  __DIR__ . '/../../inc/header.php';
-include_once  __DIR__ . '/../../inc/sidebar.php'; 
+include_once  __DIR__ . '/../../inc/sidebar.php';
 ?>
 <div id="layoutSidenav_content">
     <main>
         <div class="container-fluid">
-            <h1 class="mt-4">Kategori</h1>
+            <h1 class="mt-4">Daftar Kategori</h1>
             <ol class="breadcrumb mb-4">
-                <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
-                <li class="breadcrumb-item active">Kategori</li>
+                <li class="breadcrumb-item"><a href="<?php echo BASE_URL; ?>pages/dashboard.php">Dashboard</a></li>
+                <li class="breadcrumb-item active">Daftar Kategori</li>
             </ol>
-            <div class="card mb-4">
-                <div class="card-body">
-                    DataTables is a third party plugin that is used to generate the demo table below. For more information about DataTables, please visit the
-                    <a target="_blank" href="https://datatables.net/">official DataTables documentation</a>
-                </div>
-            </div>
             <div class="card mb-4">
                 <div class="card-header">
                     <i class="fas fa-table mr-1"></i>
-                    DataTable Example
+                    Daftar Kategori
                     <a href="<?php echo BASE_URL; ?>pages/kategori/kategori_tambah.php" class="btn btn-primary float-right">
-                        <i class="fas fa-plus mr-2"></i> Tambah
+                        <i class="fas fa-plus mr-2"></i> Tambah Kategori
                     </a>
                 </div>
                 <div class="card-body">
@@ -30,17 +24,17 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
                             <thead>
                                 <tr>
                                     <th>No</th>
-                                    <th>Name</th>
+                                    <th>Nama</th>
                                     <th>Deksripsi</th>
-                                    <th>Action</th>
+                                    <th>Aksi</th>
                                 </tr>
                             </thead>
                             <tfoot>
                                 <tr>
                                     <th>No</th>
-                                    <th>Name</th>
+                                    <th>Nama</th>
                                     <th>Deksripsi</th>
-                                    <th>Action</th>
+                                    <th>Aksi</th>
                                 </tr>
                             </tfoot>
                             <tbody>

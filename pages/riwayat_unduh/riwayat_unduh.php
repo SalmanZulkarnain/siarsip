@@ -5,24 +5,15 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
 <div id="layoutSidenav_content">
     <main>
         <div class="container-fluid">
-            <h1 class="mt-4">Riwayat Unduh</h1>
+            <h1 class="mt-4">Daftar Riwayat Unduh</h1>
             <ol class="breadcrumb mb-4">
                 <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
-                <li class="breadcrumb-item active">Riwayat Unduh</li>
+                <li class="breadcrumb-item active">Daftar Riwayat Unduh</li>
             </ol>
-            <div class="card mb-4">
-                <div class="card-body">
-                    DataTables is a third party plugin that is used to generate the demo table below. For more information about DataTables, please visit the
-                    <a target="_blank" href="https://datatables.net/">official DataTables documentation</a>
-                </div>
-            </div>
             <div class="card mb-4">
                 <div class="card-header">
                     <i class="fas fa-table mr-1"></i>
-                    Riwayat Unduh DataTable
-                    <!-- <a href="<?php echo BASE_URL; ?>pages/riwayat_unduh/riwayat_unduh_tambah.php" class="btn btn-primary float-right">
-                        <i class="fas fa-plus mr-2"></i> Tambah
-                    </a> -->
+                    Daftar Riwayat Unduh
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">

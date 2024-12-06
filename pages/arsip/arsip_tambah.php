@@ -5,24 +5,24 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
 <div id="layoutSidenav_content">
     <main>
         <div class="container-fluid">
-            <h1 class="mt-4">Form Arsip</h1>
+            <h1 class="mt-4">Tambah Arsip</h1>
             <ol class="breadcrumb mb-4">
                 <li class="breadcrumb-item">
-                    <a href="index.html">Dashboard</a>
+                    <a href="<?php echo BASE_URL; ?>pages/dashboard.php">Dashboard</a>
                 </li>
-                <li class="breadcrumb-item active">Form Arsip</li>
+                <li class="breadcrumb-item active">Tambah Arsip</li>
             </ol>
             <div class="card mb-4">
                 <div class="card-header">
                     <i class="fas fa-plus mr-1"></i>
-                    Form Arsip
+                    Tambah Arsip
                 </div>
                 <div class="card-body">
                     <form>
                         <!-- input text -->
                         <div class="form-group">
                             <label for="exampleKodeArsip1">Kode Arsip</label>
-                            <input type="text" class="form-control" id="exampleKodeArsip1" />
+                            <input type="text" class="form-control" id="exampleKodeArsip1" autofocus/>
                         </div> 
 
                         <!-- input text -->
@@ -52,12 +52,12 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
                         
                         <!-- input file -->
                         <div class="form-group">
-                            <label for="exampleInputFile1">File</label>
+                            <label for="exampleInputFile1">Foto</label>
                             <input type="file" class="form-control-file" id="exampleInputFile1" />
                         </div>
 
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                        <a href="arsip.php" class="btn btn-secondary">Back</a>
+                        <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                        <a href="arsip.php" class="btn btn-link">Kembali</a>
                     </form>
                 </div>
             </div>

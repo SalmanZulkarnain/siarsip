@@ -5,23 +5,17 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
 <div id="layoutSidenav_content">
     <main>
         <div class="container-fluid">
-            <h1 class="mt-4">Arsip</h1>
+            <h1 class="mt-4">Daftar Arsip</h1>
             <ol class="breadcrumb mb-4">
-                <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
-                <li class="breadcrumb-item active">Arsip</li>
+                <li class="breadcrumb-item"><a href="<?php echo BASE_URL; ?>pages/dashboard.php">Dashboard</a></li>
+                <li class="breadcrumb-item active">Daftar Arsip</li>
             </ol>
-            <div class="card mb-4">
-                <div class="card-body">
-                    DataTables is a third party plugin that is used to generate the demo table below. For more information about DataTables, please visit the
-                    <a target="_blank" href="https://datatables.net/">official DataTables documentation</a>
-                </div>
-            </div>
             <div class="card mb-4">
                 <div class="card-header">
                     <i class="fas fa-table mr-1"></i>
-                    Arsip DataTable
+                    Daftar Arsip
                     <a href="<?php echo BASE_URL; ?>pages/arsip/arsip_tambah.php" class="btn btn-primary float-right">
-                        <i class="fas fa-plus mr-2"></i> Tambah
+                        <i class="fas fa-plus mr-2"></i> Tambah Arsip
                     </a>
                 </div>
                 <div class="card-body">
@@ -35,7 +29,7 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
                                     <th>Kategori</th>
                                     <th>Petugas</th>
                                     <th>Keterangan</th>
-                                    <th>Opsi</th>
+                                    <th>Aksi</th>
                                 </tr>
                             </thead>
                             <tfoot>
@@ -46,7 +40,7 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
                                     <th>Kategori</th>
                                     <th>Petugas</th>
                                     <th>Keterangan</th>
-                                    <th>Opsi</th>
+                                    <th>Aksi</th>
                                 </tr>
                             </tfoot>
                             <tbody>
@@ -54,13 +48,7 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
                                     <td>1</td>
                                     <td>17:07:30 12-10-2019</td>
                                     <td><a href="arsip_detail.php">
-                                            <u>
-                                                <ul class="list-unstyled">
-                                                    <li><b>Kode:</b> KD-ARSIP-2019</li>
-                                                    <li><b>Nama:</b> Contoh Surat Izin Pelaksanaan</li>
-                                                    <li><b>Jenis:</b> pdf</li>
-                                                </ul>
-                                            </u>
+                                            <u>Contoh Surat Izin Pelaksanaan</u>
                                         </a>
                                     </td>
                                     <td>Surat Kesehatan Pegawai</td>

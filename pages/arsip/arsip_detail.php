@@ -5,17 +5,17 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
 <div id="layoutSidenav_content">
     <main>
         <div class="container-fluid">
-            <h1 class="mt-4">Preview Arsip</h1>
+            <h1 class="mt-4">Pratinjau Arsip</h1>
             <ol class="breadcrumb mb-4">
                 <li class="breadcrumb-item">
                     <a href="<?php echo BASE_URL; ?>pages/dashboard.php">Dashboard</a>
                 </li>
-                <li class="breadcrumb-item active">Preview Arsip</li>
+                <li class="breadcrumb-item active">Pratinjau Arsip</li>
             </ol>
                 <div class="card mb-4 px-0">
                     <div class="card-header">
-                        <i class="fas fa-table mr-1"></i>
-                        Preview Arsip
+                        <i class="fas fa-eye mr-1"></i>
+                        Pratinjau Arsip
                     </div>
                     <div class="card-body row">
                         <div class="col-md-4">
@@ -51,12 +51,20 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
                         </table>
                         </div>
                         <div class="col-md-8">
-                        <iframe src="<?php echo BASE_URL; ?>assets/img/flower.jpg" frameborder="0"></iframe>
+                        <div class="card mb-4 px-0">
+                            <div class="card-header">
+                                <i class="fas fa-eye mr-1"></i>
+                                Pratinjau File
+                            </div>
+                            <div class="card-body">
+                                <iframe src="<?php echo BASE_URL; ?>assets/img/flower.jpg" frameborder="0" width="100%" style="height: 70vh;"></iframe>
+                            </div>
+                        </div>
                         </div>
                     </div>
                 </div>
 
-            <a href="arsip.php" class="btn btn-secondary mb-4">Back</a>
+            <a href="arsip.php" class="btn btn-secondary mb-4">Kembali</a>
         </div>
     </main>
     <?php include __DIR__ . '/../../inc/footer.php'; ?>

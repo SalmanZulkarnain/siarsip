@@ -5,17 +5,17 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
 <div id="layoutSidenav_content">
     <main>
         <div class="container-fluid">
-            <h1 class="mt-4">Form Edit Kategori</h1>
+            <h1 class="mt-4">Edit Kategori</h1>
             <ol class="breadcrumb mb-4">
                 <li class="breadcrumb-item">
-                    <a href="index.html">Dashboard</a>
+                    <a href="<?php echo BASE_URL; ?>pages/dashboard.php">Dashboard</a>
                 </li>
-                <li class="breadcrumb-item active">Form Edit Kategori</li>
+                <li class="breadcrumb-item active">Edit Kategori</li>
             </ol>
             <div class="card mb-4">
                 <div class="card-header">
-                    <i class="fas fa-table mr-1"></i>
-                    Form Edit Kategori
+                    <i class="fas fa-pen mr-1"></i>
+                    Edit Kategori
                 </div>
                 <div class="card-body">
                     <form>
@@ -32,7 +32,7 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
                         </div>
 
                         <button type="submit" class="btn btn-primary">Submit</button>
-                        <a href="kategori.php" class="btn btn-secondary">Back</a>
+                        <a href="kategori.php" class="btn btn-link">Kembali</a>
                     </form>
                 </div>
             </div>

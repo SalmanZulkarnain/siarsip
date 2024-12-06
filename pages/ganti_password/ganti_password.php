@@ -5,18 +5,14 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
 <div id="layoutSidenav_content">
     <main>
         <div class="container-fluid">
-            <h1 class="mt-4">Form Ganti Password</h1>
+            <h1 class="mt-4">Ganti Password</h1>
             <ol class="breadcrumb mb-4">
                 <li class="breadcrumb-item">
                     <a href="index.html">Dashboard</a>
                 </li>
-                <li class="breadcrumb-item active">Form Ganti Password</li>
+                <li class="breadcrumb-item active">Ganti Password</li>
             </ol>
             <div class="card mb-4">
-                <div class="card-header">
-                    <i class="fas fa-plus mr-1"></i>
-                    Form Ganti Password
-                </div>
                 <div class="card-body">
                     <form>
                         <!-- input password -->

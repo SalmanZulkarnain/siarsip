@@ -5,23 +5,17 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
 <div id="layoutSidenav_content">
     <main>
         <div class="container-fluid">
-            <h1 class="mt-4">User</h1>
+            <h1 class="mt-4">Daftar User</h1>
             <ol class="breadcrumb mb-4">
-                <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
-                <li class="breadcrumb-item active">User</li>
+                <li class="breadcrumb-item"><a href="<?php echo BASE_URL; ?>pages/dashboard.php">Dashboard</a></li>
+                <li class="breadcrumb-item active">Daftar User</li>
             </ol>
-            <div class="card mb-4">
-                <div class="card-body">
-                    DataTables is a third party plugin that is used to generate the demo table below. For more information about DataTables, please visit the
-                    <a target="_blank" href="https://datatables.net/">official DataTables documentation</a>
-                </div>
-            </div>
             <div class="card mb-4">
                 <div class="card-header">
                     <i class="fas fa-table mr-1"></i>
-                    User DataTable
+                    Daftar User
                     <a href="<?php echo BASE_URL; ?>pages/user/user_tambah.php" class="btn btn-primary float-right">
-                        <i class="fas fa-plus mr-2"></i> Tambah
+                        <i class="fas fa-plus mr-2"></i> Tambah User
                     </a>
                 </div>
                 <div class="card-body">
@@ -33,7 +27,7 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
                                     <th>Foto</th>
                                     <th>Nama</th>
                                     <th>Username</th>
-                                    <th>Action</th>
+                                    <th>Aksi</th>
                                 </tr>
                             </thead>
                             <tfoot>
@@ -42,7 +36,7 @@ include_once  __DIR__ . '/../../inc/sidebar.php';
                                     <th>Foto</th>
                                     <th>Nama</th>
                                     <th>Username</th>
-                                    <th>Action</th>
+                                    <th>Aksi</th>
                                 </tr>
                             </tfoot>
                             <tbody>
